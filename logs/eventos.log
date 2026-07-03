@@ -1,0 +1,19 @@
+2026-07-02 18:38:15 | INFO     | Cliente creado correctamente -> ID 1 | Cristian Gomez
+2026-07-02 18:38:15 | ERROR    | Operación 2 (Registrar cliente con documento inválido) FALLÓ: El documento '10AB56' no es válido (debe ser numérico, 5-15 dígitos)
+2026-07-02 18:38:15 | INFO     | Cliente creado correctamente -> ID 3 | Ana Graciela Rodriguez
+2026-07-02 18:38:15 | ERROR    | Operación 4 (Registrar cliente con email inválido) FALLÓ: El correo 'pedro-en-correo-mal' no tiene un formato válido
+2026-07-02 18:38:15 | ERROR    | Operación 6 (Crear servicio AlquilerEquipo con precio negativo) FALLÓ: El precio base debe ser mayor que cero
+2026-07-02 18:38:15 | ERROR    | Operación 9 (Crear AsesoriaEspecializada con nivel inválido) FALLÓ: Nivel de experto 'maestro-jedi' no reconocido. Use: ['junior', 'senior', 'experto']
+2026-07-02 18:38:15 | INFO     | Reserva #10 creada (pendiente) -> Cliente: Cristian Gomez | Servicio: Sala Ejecutiva A
+2026-07-02 18:38:15 | INFO     | Reserva #10 procesada. Costo final: $160,650.00
+2026-07-02 18:38:15 | DEBUG    | Intento de procesamiento finalizado para reserva #10
+2026-07-02 18:38:15 | INFO     | Reserva #10 CONFIRMADA
+2026-07-02 18:38:15 | INFO     | Reserva #11 creada (pendiente) -> Cliente: Cristian Gomez | Servicio: Asesoría en Ciberseguridad
+2026-07-02 18:38:15 | INFO     | Reserva #11 procesada. Costo final: $208,000.00
+2026-07-02 18:38:15 | DEBUG    | Intento de procesamiento finalizado para reserva #11
+2026-07-02 18:38:15 | INFO     | Reserva #11 CONFIRMADA
+2026-07-02 18:38:15 | INFO     | Servicio 'Sala Ejecutiva A' (#5) marcado como NO disponible
+2026-07-02 18:38:15 | ERROR    | Operación 12 (Intentar reservar un servicio ya no disponible) FALLÓ: El servicio 'Sala Ejecutiva A' no está disponible para reservar
+2026-07-02 18:38:15 | WARNING  | Se cancela la reserva #10 que ya estaba confirmada
+2026-07-02 18:38:15 | INFO     | Reserva #10 CANCELADA
+2026-07-02 18:38:15 | ERROR    | Operación 13 (Cancelar reserva y luego intentar confirmarla (debe fallar)) FALLÓ: No se puede confirmar la reserva #10: está cancelada
