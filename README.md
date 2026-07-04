@@ -12,16 +12,16 @@ python3 main.py
 
 ```
 software_fj/
-├── main.py              # Programa principal / demo de 13 operaciones
-├── entidad_base.py       # Clase abstracta base (EntidadBase)
-├── cliente.py             # Clase Cliente (encapsulación + validaciones)
-├── servicio.py             # Clase abstracta Servicio + 3 subclases:
-│                              ReservaSala, AlquilerEquipo, AsesoriaEspecializada
-├── reserva.py               # Clase Reserva (integra Cliente + Servicio)
-├── excepciones.py            # Excepciones personalizadas del sistema
-├── logger_config.py           # Configuración del logging a archivo
+├── main.py              
+├── entidad_base.py      
+├── cliente.py             
+├── servicio.py           
+│                              
+├── reserva.py            
+├── excepciones.py            
+├── logger_config.py          
 └── logs/
-    └── eventos.log            # Se genera automáticamente al ejecutar
+    └── eventos.log          
 ```
 
 ## Principios de POO aplicados
@@ -50,4 +50,4 @@ Cada error se registra en `logs/eventos.log` mediante el módulo
 cualquier excepción por operación y continúa con la siguiente.
 
 ## Autores
-_(Aqui ponen los nombres del grupo rodrigo, cada integrante)_
+_(Rodrigo fernandez)_
